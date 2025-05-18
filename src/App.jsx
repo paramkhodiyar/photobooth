@@ -1,12 +1,12 @@
-
-import './App.css'
+import AutoPolaroidCapture from './AutoPolaroidCapture';
 
 function App() {
   return (
-    <>
-      <h1>PhotoBooth</h1>
-    </>
-  )
+    <div>
+      <AutoPolaroidCapture />
+    </div>
+  );
 }
+
 
 export default App
